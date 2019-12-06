@@ -1,0 +1,288 @@
+@font-face {
+  font-family: "ROCKYAOE.ttf";
+  src: url("../font/ROCKYAOE.ttf");
+}
+@font-face {
+  font-family: "Flenja-Regular.otf";
+  src: url("../font/Flenja-Regular.otf");
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.poster {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 1080px;
+  height: 1600px;
+  background-color: black;
+  padding-bottom: 95px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.movie_title {
+  display: flex;
+  position: relative;
+  font-family: "ROCKYAOE.ttf";
+  font-size: 165px;
+  color: #E9232D;
+  text-shadow: #FCFCFC -2px -2px;
+}
+.movie_title p {
+  display: flex;
+  position: absolute;
+  margin: 0;
+}
+.T {
+  transform: scale(1.2, 1);
+  left:195px;
+  top:60px;
+  z-index: 12;
+}
+.H{
+  transform: scale(1, 0.95);
+  left:282px;
+  top:65px;
+  z-index: 11;
+}
+.E{
+  left:367px;
+  top:70px;
+  z-index: 12;
+}
+.R{
+  transform: scale(0.95, 1.1);
+  left:475px;
+  top:70px;
+  z-index: 9;
+}
+.O{
+  transform: scale(0.85, 0.95)rotate(5deg);
+  left:540px;
+  top:70px;
+  z-index: 8;
+}
+.C{
+  transform: scale(0.95, 0.95);
+  left:635px;
+  top:75px;
+  z-index: 7;
+}
+.K{
+  transform: rotate(-3deg);
+  left:710px;
+  top:75px;
+  z-index: 6;
+}
+.Y{
+  transform: scale(1.1, 1.2) rotate(3deg);
+  left:795px;
+  top:65px;
+  z-index: 5;
+}
+.H2{
+  transform: scale(0.85, 1.1) rotate(-5deg);
+  left:312px;
+  top:195px;
+  z-index: 10;
+}
+.O2{
+  transform: scale(0.8, 0.9);
+  left:375px;
+  top:195px;
+  z-index: 9;
+}
+.R2{
+  transform: scale(0.9, 1.05) rotate(-5deg);
+  left:460px;
+  top:200px;
+  z-index: 8;
+}
+.R3{
+  transform: scale(1, 1.1) rotate(-5deg);
+  left:535px;
+  top:200px;
+  z-index: 7;
+}
+.O3{
+  transform: scale(0.9, 1) ;
+  left:600px;
+  top:203px;
+  z-index: 6;
+}
+.R4{
+  transform: scale(1.05, 1.1);
+  left:690px;
+  top:205px;
+  z-index: 5;
+}
+.P{
+  transform: scale(0.95, 1.05);
+  left:110px;
+  top:330px;
+  z-index: 12;
+}
+.I{
+  transform: scale(-0.95, 0.9);
+  text-shadow: #FAC3BB 2px -2px;
+  left:180px;
+  top:315px;
+  z-index: 11;
+}
+.C2{
+  transform: scale(0.9, 0.95);
+  left:215px;
+  top:325px;
+  z-index: 10;
+}
+.T2{
+  transform: scale(-0.85, 1.1);
+  text-shadow: #FAC3BB 2px -2px;
+  left:278px;
+  top:325px;
+  z-index: 9;
+}
+.U{
+  transform: scale(1.05, 0.85) ;
+  left:350px;
+  top:320px;
+  z-index: 5;
+}
+.R5{
+  transform: scale(0.95, 1.05) rotate(3deg);
+  left:433px;
+  top:325px;
+  z-index: 5;
+}
+.E2{
+  transform: scale(1, 0.9) ;
+  left:508px;
+  top:325px;
+  z-index: 5;
+}
+.S{
+  transform: scale(1, 1.1) ;
+  left:625px;
+  top:328px;
+  z-index: 5;
+}
+.H3{
+  transform: scale(0.9, 0.9) ;
+  left:698px;
+  top:325px;
+  z-index: 4;
+}
+.O4{
+  transform: scale(0.8, 0.9) ;
+  left:770px;
+  top:335px;
+  z-index: 3;
+}
+.W{
+  transform: scale(1, 0.85) rotate(-5deg) ;
+  left:852px;
+  top:315px;
+  z-index: 2;
+}
+.main_pic {
+  margin-top: 450px;
+  width: 1120px;
+}
+.rocky_picture {
+  background: url('../images/rocky_picture.png');
+  background-size: cover;
+  width: 100%;
+  height: 640px;
+  margin-top: 260px;
+  background-position: center;
+}
+/* FOOTER */
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Flenja-Regular.otf";
+  color: #FCFCFC;
+  opacity: 0.8;
+}
+div.line {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 3px;
+  align-items: flex-end;
+}
+
+div.line p {
+  margin: 0px 1px;
+}
+
+div.line p.F36 {
+  font-size: 36px;
+  line-height: 33px;
+  padding: 0px 1px;
+}
+div.line p.F15 {
+  font-size: 23px;
+  line-height: 20px;
+  margin: 0 3px;
+  letter-spacing: 0.8px;
+}
+div.line p.F12 {
+  font-size: 16px;
+  line-height: 14px;
+  text-align: right;
+  padding-left: 5px;
+}
+
+div.line p.susan {
+  margin: 0 6px;
+}
+
+.web {
+  border: solid white 1px;
+  font-family: sans-serif;
+  font-size: 16px;
+  padding: 3px 6px;
+  margin: 0 20px 0 20px;
+}
+.ODE {
+  border: solid white 1px;
+  font-size: 18px;
+  padding: 0px 6px 3px;
+  margin: 0 20px 0 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.ODE img {
+  height: 18px;
+  margin-left: 5px;
+}
+
+.fox{
+  display: flex;
+  position: absolute;
+  bottom: 100px;
+  right: 105px;
+  align-items: flex-end;
+}
+.F8{
+  font-family: sans-serif;
+  font-size: 6px;
+  padding: 0px 6px;
+  text-align: right;
+}
+.fox_logo{
+  height: 50px;
+}
+.restricted {
+  display: flex;
+  position: absolute;
+  bottom: 100px;
+  left: 105px;
+  height: 44px;
+}
